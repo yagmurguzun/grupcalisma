@@ -6,7 +6,11 @@ public class OrtakAlan {
 
         System.out.println("conflict is begining ");
 
-        System.out.println("mehmetin alani");
+        System.out.println("Mehmet'in alani");
+
+
+
+
 
 
     }
