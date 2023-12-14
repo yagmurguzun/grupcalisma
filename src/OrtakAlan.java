@@ -4,6 +4,8 @@ public class OrtakAlan {
 
         System.out.println("Hi! Elif is here git ");
 
+        System.out.println("mehmetin alani");
+
 
     }
 }
