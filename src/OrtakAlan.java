@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class OrtakAlan {
@@ -16,6 +18,23 @@ public class OrtakAlan {
         //kullanildigini yazdirin, kullanilmadiysa “harf cumlede kullanilmamis” yazdirin.
 
         Scanner scanner=new Scanner(System.in);
+        System.out.println("lutfen bir cumle ve bir harf giriniz");
+        String girilencumle0=scanner.nextLine();
+        char girilenharf=scanner.next().charAt(0);
+
+        int sayac=0;
+        String[] cumlearr=girilencumle0.split("");
+        for (String each:cumlearr
+             ) {
+            if(each.equals(girilenharf)){
+                sayac++;
+                System.out.println("cumlede harf "+sayac+"kadar kullanilmistir");
+        }else{
+                System.out.println("harf cumlede kullanilmamistir");
+            }
+        }
+
+
 
 
     }
